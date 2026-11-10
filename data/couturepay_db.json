@@ -1,0 +1,718 @@
+{
+  "profile": {
+    "atelierName": "Atelier Vivienne Laurent",
+    "designerName": "Vivienne Laurent",
+    "email": "vivienne@atelierlaurent.couture",
+    "location": "8 Rue de la Paix, 75002 Paris",
+    "defaultCurrency": "USD",
+    "defaultRevisionPolicy": "2 rounds of silhouette and fabric drape refinement. Additional revisions billed at atelier hourly rate ($180/hr).",
+    "avatarUrl": "/src/assets/images/couture_designer_portrait_1793860141333.jpg"
+  },
+  "projects": [
+    {
+      "id": "proj_01",
+      "title": "The Met Gala Gilded Architecture Gown",
+      "status": "brief_received",
+      "createdAt": "2026-11-01T10:30:00Z",
+      "updatedAt": "2026-11-01T10:30:00Z",
+      "brief": {
+        "id": "brief_01",
+        "clientName": "Élodie Laurent",
+        "clientEmail": "elodie.laurent@luxurygroup.fr",
+        "clientPhone": "+33 6 42 19 88 02",
+        "clientLocation": "Paris, France",
+        "garmentCategory": "Haute Couture Gown",
+        "occasion": "Met Gala 2026: Gilded Architectures",
+        "inspirationMood": "Structural golden embroidery, obsidian pleated silk, Art Deco arch contours, fluid theatrical cape train inspired by 1920s Paul Poiret.",
+        "colorPalette": [
+          "Obsidian Noir",
+          "Champagne Gold",
+          "Smoky Topaz"
+        ],
+        "fabricPreferences": [
+          "Silk Dupioni",
+          "French Chantilly Lace",
+          "Hand-stitched Gold Bullion Thread",
+          "Heavy Silk Crepe"
+        ],
+        "silhouetteNotes": "Column dress with detachable sculptural panier peplum and high-collar cathedral length opera cape.",
+        "budgetMin": 8500,
+        "budgetMax": 14000,
+        "currency": "USD",
+        "deadline": "2026-12-15",
+        "specialRequirements": "Must be lightweight enough for red carpet movement while maintaining crisp sculptural silhouette. Zero synthetic fabrics.",
+        "submittedAt": "2026-11-01T10:30:00Z"
+      },
+      "statusHistory": [
+        {
+          "status": "brief_received",
+          "timestamp": "2026-11-01T10:30:00Z",
+          "note": "Fashion brief submitted by client Élodie Laurent via atelier concierge.",
+          "actor": "client"
+        }
+      ]
+    },
+    {
+      "id": "proj_02",
+      "title": "Venetian Silk Organza Bespoke Bridal Ensemble",
+      "status": "quotation_prepared",
+      "createdAt": "2026-10-28T14:15:00Z",
+      "updatedAt": "2026-10-29T16:45:00Z",
+      "brief": {
+        "id": "brief_02",
+        "clientName": "Sophia DeLuca",
+        "clientEmail": "sophia@delucafineart.com",
+        "clientLocation": "Venice & New York",
+        "garmentCategory": "Bespoke Bridal",
+        "occasion": "Grand Canal Villa Wedding, Venice",
+        "inspirationMood": "Water reflections on Venetian palazzo marble, translucent layered silks, delicate pearl hand-beading.",
+        "colorPalette": [
+          "Warm Ivory",
+          "Alabaster",
+          "Muted Rose Quartz",
+          "Champagne Lustre"
+        ],
+        "fabricPreferences": [
+          "Mulberry Silk Organza",
+          "Italian Silk Tulle",
+          "Hand-beaded Seed Pearls"
+        ],
+        "silhouetteNotes": "Empire waist corset with gossamer micro-pleated skirt and cathedral veil with botanical filigree embroidery.",
+        "budgetMin": 12000,
+        "budgetMax": 18000,
+        "currency": "USD",
+        "deadline": "2027-01-20",
+        "specialRequirements": "Include custom matching embroidered veil sketch and fabric swatch presentation dossier.",
+        "submittedAt": "2026-10-28T14:15:00Z"
+      },
+      "quotation": {
+        "id": "quot_02",
+        "projectId": "proj_02",
+        "projectTitle": "Venetian Silk Organza Bespoke Bridal Ensemble",
+        "briefSummary": "A custom three-tiered bridal sketch suite exploring translucent layered silk organza, hand-strung Venetian seed pearls, and architectural veil designs.",
+        "scopeOfWork": [
+          "Phase 1: 3 Initial Silhouette Concepts with moodboard & fabric draping analysis",
+          "Phase 2: Master Couture Illustration with hand-rendered pearl embellishment detailing",
+          "Phase 3: Production Technical Spec Flats & Venetian Lace Swatch Dossier"
+        ],
+        "deliverables": [
+          "3 High-Resolution Digital Couture Color Sketches (Front & Back)",
+          "1 Detailed Veil Embroidery Schematic & Pattern Flat",
+          "Physical Fabric Swatch Card with hand-cut French lace and silk organza swatches",
+          "Certificate of Bespoke Atelier Design"
+        ],
+        "items": [
+          {
+            "id": "item_1",
+            "title": "Conceptual Silhouette Explorations (3 Looks)",
+            "phase": "Phase 1: Ideation",
+            "description": "Three distinct silhouette directions featuring empire bodice variations and veil volume studies.",
+            "amount": 2200
+          },
+          {
+            "id": "item_2",
+            "title": "Master Haute Couture Presentation Illustration",
+            "phase": "Phase 2: Final Art",
+            "description": "Rendered in gouache & digital ink with accurate light reflection on organza layers and pearl placement.",
+            "amount": 2800
+          },
+          {
+            "id": "item_3",
+            "title": "Couturier Technical Pack & Fabric Specification",
+            "phase": "Phase 3: Production Specs",
+            "description": "Measurement mapping, seam finishes, boning construction chart, and fabric vendor guide.",
+            "amount": 1500
+          }
+        ],
+        "totalAmount": 6500,
+        "currency": "USD",
+        "revisionPolicy": "2 rounds of silhouette adjustment included. Final color pass includes 1 adjustment round.",
+        "deliveryTimeline": "18 business days from payment confirmation",
+        "designerNotes": "This design captures the ethereal spirit of Venetian dawn light with extraordinary delicacy.",
+        "isAiGenerated": true,
+        "isDemo": false,
+        "generatedAt": "2026-10-29T16:45:00Z",
+        "status": "presented"
+      },
+      "statusHistory": [
+        {
+          "status": "brief_received",
+          "timestamp": "2026-10-28T14:15:00Z",
+          "note": "Initial brief received with Venice destination wedding inspiration.",
+          "actor": "client"
+        },
+        {
+          "status": "quotation_prepared",
+          "timestamp": "2026-10-29T16:45:00Z",
+          "note": "AI quotation generated and reviewed by Vivienne Laurent. Ready for client approval.",
+          "actor": "designer"
+        }
+      ]
+    },
+    {
+      "id": "proj_03",
+      "title": "Cannes Opening Gala Sculptural Velvet Corset",
+      "status": "awaiting_payment",
+      "createdAt": "2026-10-20T09:00:00Z",
+      "updatedAt": "2026-10-22T11:20:00Z",
+      "brief": {
+        "id": "brief_03",
+        "clientName": "Genevieve Thorne",
+        "clientEmail": "genevieve@thorneentertainment.co.uk",
+        "clientLocation": "London, UK",
+        "garmentCategory": "Red Carpet Gala",
+        "occasion": "Cannes International Film Festival Premiere",
+        "inspirationMood": "Dark romance, 17th century corsetry modernized with razor-sharp shoulders and deep emerald devoré velvet.",
+        "colorPalette": [
+          "Midnight Emerald",
+          "Obsidian Black",
+          "Antique Gold"
+        ],
+        "fabricPreferences": [
+          "Silk Devoré Velvet",
+          "Steel Spiral Boning",
+          "Heavy Silk Satin Lining"
+        ],
+        "silhouetteNotes": "Sculpted hourglass corset with peaked neckline, asymmetric hip peplum, and fluid silk train.",
+        "budgetMin": 4500,
+        "budgetMax": 7500,
+        "currency": "USD",
+        "deadline": "2026-11-28",
+        "submittedAt": "2026-10-20T09:00:00Z"
+      },
+      "quotation": {
+        "id": "quot_03",
+        "projectId": "proj_03",
+        "projectTitle": "Cannes Opening Gala Sculptural Velvet Corset",
+        "briefSummary": "Couture sketch commission and technical pattern layout for a structured emerald velvet corset gown with internal steel engineering.",
+        "scopeOfWork": [
+          "Phase 1: Corset Silhouette & Hip Peplum Architecture exploration",
+          "Phase 2: Hand-painted textile illustration with devoré velvet texture rendition",
+          "Phase 3: Production Tech Pack with exact boning channel placement"
+        ],
+        "deliverables": [
+          "2 Full-Length Front & Profile Couture Illustrations",
+          "Boning Channel & Gusset Construction Blueprint",
+          "Fabric & Trims Procurement Specification Sheet"
+        ],
+        "items": [
+          {
+            "id": "item_1",
+            "title": "Structural Silhouette Sketches",
+            "phase": "Phase 1",
+            "description": "Exploring peak collar angles and hip drape proportions.",
+            "amount": 1800
+          },
+          {
+            "id": "item_2",
+            "title": "Master Velvet Texture Illustration",
+            "phase": "Phase 2",
+            "description": "Rich digital gouache rendering capturing light sheen on silk velvet.",
+            "amount": 2100
+          },
+          {
+            "id": "item_3",
+            "title": "Couture Tech Blueprint",
+            "phase": "Phase 3",
+            "description": "Ready-to-cut internal corset diagram with seam allowances.",
+            "amount": 1100
+          }
+        ],
+        "totalAmount": 5000,
+        "currency": "USD",
+        "revisionPolicy": "2 revision rounds on sketches prior to tech pack finalization.",
+        "deliveryTimeline": "12 business days upon payment confirmation",
+        "isAiGenerated": true,
+        "isDemo": false,
+        "generatedAt": "2026-10-21T10:00:00Z",
+        "status": "approved"
+      },
+      "statusHistory": [
+        {
+          "status": "brief_received",
+          "timestamp": "2026-10-20T09:00:00Z",
+          "note": "Brief submitted for Cannes premiere outfit.",
+          "actor": "client"
+        },
+        {
+          "status": "quotation_prepared",
+          "timestamp": "2026-10-21T10:00:00Z",
+          "note": "Quotation sent to client Genevieve Thorne.",
+          "actor": "designer"
+        },
+        {
+          "status": "awaiting_payment",
+          "timestamp": "2026-10-22T11:20:00Z",
+          "note": "Client approved quotation. Invoice generated awaiting PayPal Sandbox payment.",
+          "actor": "client"
+        }
+      ]
+    },
+    {
+      "id": "proj_04",
+      "title": "Avant-Garde Architectural Cape & Silk Slip",
+      "status": "payment_confirmed",
+      "createdAt": "2026-10-15T11:00:00Z",
+      "updatedAt": "2026-10-17T15:32:00Z",
+      "brief": {
+        "id": "brief_04",
+        "clientName": "Alessandra Moretti",
+        "clientEmail": "alessandra@morettidesign.it",
+        "clientLocation": "Milan, Italy",
+        "garmentCategory": "Avant-Garde Runway",
+        "occasion": "Milan Design Week VIP Keynote Gala",
+        "inspirationMood": "Brutalist concrete architecture transformed into pliable pleated textiles, origami folds, champagne bronze metallic sheen.",
+        "colorPalette": [
+          "Champagne Bronze",
+          "Raw Linen",
+          "Deep Charcoal"
+        ],
+        "fabricPreferences": [
+          "Metallic Coated Linen",
+          "Silk Charmeuse",
+          "Crushed Organza"
+        ],
+        "silhouetteNotes": "Volumetric origami folded collar transitioning into geometric cape over bias-cut slip.",
+        "budgetMin": 3800,
+        "budgetMax": 6000,
+        "currency": "USD",
+        "deadline": "2026-11-20",
+        "submittedAt": "2026-10-15T11:00:00Z"
+      },
+      "quotation": {
+        "id": "quot_04",
+        "projectId": "proj_04",
+        "projectTitle": "Avant-Garde Architectural Cape & Silk Slip",
+        "briefSummary": "Origami pleated cape concept and bias slip sketch package for Milan Design Week presentation.",
+        "scopeOfWork": [
+          "Cape Volume Studies",
+          "Master Runway Illustration",
+          "Fabric Origami Folding Guide"
+        ],
+        "deliverables": [
+          "3 High-Res Runway Sketches",
+          "Pattern Origami Fold Vector Files",
+          "Material Sourcing List"
+        ],
+        "items": [
+          {
+            "id": "item_1",
+            "title": "Volume & Fold Prototyping Sketches",
+            "phase": "Phase 1",
+            "description": "Exploring geometric folding patterns and collar articulation.",
+            "amount": 1400
+          },
+          {
+            "id": "item_2",
+            "title": "Color Runway Illustration & Lighting Study",
+            "phase": "Phase 2",
+            "description": "Digital watercolor rendering showing sheen of bronze linen.",
+            "amount": 1800
+          },
+          {
+            "id": "item_3",
+            "title": "Folding Instructions & Spec Dossier",
+            "phase": "Phase 3",
+            "description": "Technical drafting for patternmaker.",
+            "amount": 1000
+          }
+        ],
+        "totalAmount": 4200,
+        "currency": "USD",
+        "revisionPolicy": "2 rounds of revision included.",
+        "deliveryTimeline": "10 business days",
+        "isAiGenerated": true,
+        "isDemo": false,
+        "generatedAt": "2026-10-16T14:00:00Z",
+        "status": "approved"
+      },
+      "payment": {
+        "id": "pay_04",
+        "projectId": "proj_04",
+        "orderId": "8XX1928471928491A",
+        "captureId": "CAPTURE_78392183921",
+        "amount": 4200,
+        "currency": "USD",
+        "status": "COMPLETED",
+        "payerEmail": "alessandra.moretti@buyer.sandbox.paypal.com",
+        "payerName": "Alessandra Moretti",
+        "paidAt": "2026-10-17T15:32:00Z",
+        "isSandbox": true,
+        "invoiceNumber": "INV-2026-0042"
+      },
+      "receipt": {
+        "receiptNumber": "RCP-2026-0042",
+        "projectId": "proj_04",
+        "projectTitle": "Avant-Garde Architectural Cape & Silk Slip",
+        "clientName": "Alessandra Moretti",
+        "clientEmail": "alessandra@morettidesign.it",
+        "designerStudio": "Atelier Vivienne Laurent",
+        "designerEmail": "vivienne@atelierlaurent.couture",
+        "amount": 4200,
+        "currency": "USD",
+        "transactionId": "SANDBOX-TX-99482174",
+        "captureReference": "CAPTURE_78392183921",
+        "date": "2026-10-17T15:32:00Z",
+        "garmentCategory": "Avant-Garde Runway",
+        "isSandboxTestPayment": true,
+        "items": [
+          {
+            "description": "Volume & Fold Prototyping Sketches",
+            "amount": 1400
+          },
+          {
+            "description": "Color Runway Illustration & Lighting Study",
+            "amount": 1800
+          },
+          {
+            "description": "Folding Instructions & Spec Dossier",
+            "amount": 1000
+          }
+        ]
+      },
+      "statusHistory": [
+        {
+          "status": "brief_received",
+          "timestamp": "2026-10-15T11:00:00Z",
+          "note": "Brief received for Milan Design Week project.",
+          "actor": "client"
+        },
+        {
+          "status": "quotation_prepared",
+          "timestamp": "2026-10-16T14:00:00Z",
+          "note": "Quotation sent to client.",
+          "actor": "designer"
+        },
+        {
+          "status": "awaiting_payment",
+          "timestamp": "2026-10-17T10:00:00Z",
+          "note": "Quotation approved by Alessandra Moretti.",
+          "actor": "client"
+        },
+        {
+          "status": "payment_confirmed",
+          "timestamp": "2026-10-17T15:32:00Z",
+          "note": "PayPal Sandbox payment confirmed. Capture ID: CAPTURE_78392183921. Receipt RCP-2026-0042 issued.",
+          "actor": "system"
+        }
+      ]
+    },
+    {
+      "id": "proj_05",
+      "title": "Paris Couture Week 5-Look Capsule Sketches",
+      "status": "in_progress",
+      "createdAt": "2026-10-10T08:00:00Z",
+      "updatedAt": "2026-10-24T17:00:00Z",
+      "brief": {
+        "id": "brief_05",
+        "clientName": "Marcella Fontaine",
+        "clientEmail": "marcella@fontainecouture.paris",
+        "clientLocation": "Paris, France",
+        "garmentCategory": "Ready-to-Wear Capsule",
+        "occasion": "Autumn/Winter Capsule Launch",
+        "inspirationMood": "1970s Saint Laurent tailoring meets sharp futuristic lapels, liquid silk shirts, and structured wool trenchcoats.",
+        "colorPalette": [
+          "Midnight Navy",
+          "Bordeaux Wine",
+          "Champagne Lustre",
+          "Camel"
+        ],
+        "fabricPreferences": [
+          "Cashmere Wool",
+          "Silk Crepe de Chine",
+          "Horn Buttons"
+        ],
+        "silhouetteNotes": "Sharp double-breasted longline coat with flared trousers and silk pussybow blouse.",
+        "budgetMin": 7000,
+        "budgetMax": 11000,
+        "currency": "EUR",
+        "deadline": "2026-11-30",
+        "submittedAt": "2026-10-10T08:00:00Z"
+      },
+      "quotation": {
+        "id": "quot_05",
+        "projectId": "proj_05",
+        "projectTitle": "Paris Couture Week 5-Look Capsule Sketches",
+        "briefSummary": "Complete digital fashion sketch suite and fabrication specification for a 5-look luxury ready-to-wear autumn collection.",
+        "scopeOfWork": [
+          "5 Full Runway Figure Sketches",
+          "Technical Flat Line Art for Factory Production",
+          "Textile & Trim Board"
+        ],
+        "deliverables": [
+          "5 Master Digital Illustrations in High-Res TIFF & PDF",
+          "5 Production Flats with Stitch & Pocket Specs",
+          "Atelier Sourcing Dossier"
+        ],
+        "items": [
+          {
+            "id": "i1",
+            "title": "5 Master Runway Illustrations",
+            "phase": "Phase 1",
+            "description": "Full colored figures with dynamic poses.",
+            "amount": 4500
+          },
+          {
+            "id": "i2",
+            "title": "Production Specification Flats",
+            "phase": "Phase 2",
+            "description": "Detailed CAD flat line drawings front and back.",
+            "amount": 2500
+          },
+          {
+            "id": "i3",
+            "title": "Fabrication & Hardware Curation",
+            "phase": "Phase 3",
+            "description": "Supplier references and sample cards.",
+            "amount": 1200
+          }
+        ],
+        "totalAmount": 8200,
+        "currency": "EUR",
+        "revisionPolicy": "2 silhouette rounds included per look.",
+        "deliveryTimeline": "21 business days",
+        "isAiGenerated": true,
+        "isDemo": false,
+        "generatedAt": "2026-10-11T12:00:00Z",
+        "status": "approved"
+      },
+      "payment": {
+        "id": "pay_05",
+        "projectId": "proj_05",
+        "orderId": "3PP991823719284",
+        "captureId": "CAPTURE_PARIS_449102",
+        "amount": 8200,
+        "currency": "EUR",
+        "status": "COMPLETED",
+        "payerEmail": "marcella.fontaine@buyer.sandbox.paypal.com",
+        "payerName": "Marcella Fontaine",
+        "paidAt": "2026-10-12T16:20:00Z",
+        "isSandbox": true,
+        "invoiceNumber": "INV-2026-0038"
+      },
+      "receipt": {
+        "receiptNumber": "RCP-2026-0038",
+        "projectId": "proj_05",
+        "projectTitle": "Paris Couture Week 5-Look Capsule Sketches",
+        "clientName": "Marcella Fontaine",
+        "clientEmail": "marcella@fontainecouture.paris",
+        "designerStudio": "Atelier Vivienne Laurent",
+        "designerEmail": "vivienne@atelierlaurent.couture",
+        "amount": 8200,
+        "currency": "EUR",
+        "transactionId": "SANDBOX-TX-7738210",
+        "captureReference": "CAPTURE_PARIS_449102",
+        "date": "2026-10-12T16:20:00Z",
+        "garmentCategory": "Ready-to-Wear Capsule",
+        "isSandboxTestPayment": true,
+        "items": [
+          {
+            "description": "5 Master Runway Illustrations",
+            "amount": 4500
+          },
+          {
+            "description": "Production Specification Flats",
+            "amount": 2500
+          },
+          {
+            "description": "Fabrication & Hardware Curation",
+            "amount": 1200
+          }
+        ]
+      },
+      "statusHistory": [
+        {
+          "status": "brief_received",
+          "timestamp": "2026-10-10T08:00:00Z",
+          "note": "Brief received.",
+          "actor": "client"
+        },
+        {
+          "status": "quotation_prepared",
+          "timestamp": "2026-10-11T12:00:00Z",
+          "note": "Quotation sent.",
+          "actor": "designer"
+        },
+        {
+          "status": "awaiting_payment",
+          "timestamp": "2026-10-12T10:00:00Z",
+          "note": "Quotation accepted.",
+          "actor": "client"
+        },
+        {
+          "status": "payment_confirmed",
+          "timestamp": "2026-10-12T16:20:00Z",
+          "note": "Payment captured via PayPal Sandbox.",
+          "actor": "system"
+        },
+        {
+          "status": "in_progress",
+          "timestamp": "2026-10-13T09:00:00Z",
+          "note": "Sketching begun. Looks 1 and 2 in silhouette pencil draft.",
+          "actor": "designer"
+        }
+      ]
+    },
+    {
+      "id": "proj_06",
+      "title": "Swarovski Crystal Beaded Gala Bustier",
+      "status": "delivered",
+      "createdAt": "2026-09-18T10:00:00Z",
+      "updatedAt": "2026-10-05T14:00:00Z",
+      "brief": {
+        "id": "brief_06",
+        "clientName": "Duchess Claire of Kent",
+        "clientEmail": "claire@kentheritage.org.uk",
+        "clientLocation": "London, UK",
+        "garmentCategory": "Editorial Corsetry",
+        "occasion": "Royal Philharmonic Charity Winter Gala",
+        "inspirationMood": "Constellations, chandelier crystal prisms, frost patterns on winter glass, ethereal silver and gold reflections.",
+        "colorPalette": [
+          "Icy Silver",
+          "Champagne Crystal",
+          "Alabaster"
+        ],
+        "fabricPreferences": [
+          "Silk Netting",
+          "Swarovski Crystal Bicones",
+          "Metallic Silver Bullion Thread"
+        ],
+        "silhouetteNotes": "Conical bustier with arched sweetheart neckline and micro-peplum.",
+        "budgetMin": 3500,
+        "budgetMax": 5000,
+        "currency": "GBP",
+        "deadline": "2026-10-05",
+        "submittedAt": "2026-09-18T10:00:00Z"
+      },
+      "quotation": {
+        "id": "quot_06",
+        "projectId": "proj_06",
+        "projectTitle": "Swarovski Crystal Beaded Gala Bustier",
+        "briefSummary": "Bespoke crystal embroidery map and haute couture presentation illustration for royal charity gala bustier.",
+        "scopeOfWork": [
+          "Crystal Placement Cartography",
+          "Master Watercolor Illustration",
+          "Embroiderer Spec Diagram"
+        ],
+        "deliverables": [
+          "1:1 Scale Crystal Beading Cartography",
+          "Framed Digital Master Art Print File",
+          "Certificate of Atelier Authenticity"
+        ],
+        "items": [
+          {
+            "id": "i1",
+            "title": "Crystal Cartography Drafting",
+            "phase": "Phase 1",
+            "description": "Individual stone mapping for 1,400 hand-set crystals.",
+            "amount": 1600
+          },
+          {
+            "id": "i2",
+            "title": "Gala Master Illustration",
+            "phase": "Phase 2",
+            "description": "Rendered in fine metallic ink and gouache.",
+            "amount": 1500
+          },
+          {
+            "id": "i3",
+            "title": "Embroidery Atelier Dossier",
+            "phase": "Phase 3",
+            "description": "Stone sizes, thread tensile guidelines, and boning channels.",
+            "amount": 800
+          }
+        ],
+        "totalAmount": 3900,
+        "currency": "GBP",
+        "revisionPolicy": "1 round of stone density adjustment included.",
+        "deliveryTimeline": "10 business days",
+        "isAiGenerated": true,
+        "isDemo": false,
+        "generatedAt": "2026-09-19T11:00:00Z",
+        "status": "approved"
+      },
+      "payment": {
+        "id": "pay_06",
+        "projectId": "proj_06",
+        "orderId": "9KL28371928491",
+        "captureId": "CAPTURE_LONDON_882910",
+        "amount": 3900,
+        "currency": "GBP",
+        "status": "COMPLETED",
+        "payerEmail": "claire.kent@buyer.sandbox.paypal.com",
+        "payerName": "Duchess Claire of Kent",
+        "paidAt": "2026-09-20T14:10:00Z",
+        "isSandbox": true,
+        "invoiceNumber": "INV-2026-0029"
+      },
+      "receipt": {
+        "receiptNumber": "RCP-2026-0029",
+        "projectId": "proj_06",
+        "projectTitle": "Swarovski Crystal Beaded Gala Bustier",
+        "clientName": "Duchess Claire of Kent",
+        "clientEmail": "claire@kentheritage.org.uk",
+        "designerStudio": "Atelier Vivienne Laurent",
+        "designerEmail": "vivienne@atelierlaurent.couture",
+        "amount": 3900,
+        "currency": "GBP",
+        "transactionId": "SANDBOX-TX-44829102",
+        "captureReference": "CAPTURE_LONDON_882910",
+        "date": "2026-09-20T14:10:00Z",
+        "garmentCategory": "Editorial Corsetry",
+        "isSandboxTestPayment": true,
+        "items": [
+          {
+            "description": "Crystal Cartography Drafting",
+            "amount": 1600
+          },
+          {
+            "description": "Gala Master Illustration",
+            "amount": 1500
+          },
+          {
+            "description": "Embroidery Atelier Dossier",
+            "amount": 800
+          }
+        ]
+      },
+      "statusHistory": [
+        {
+          "status": "brief_received",
+          "timestamp": "2026-09-18T10:00:00Z",
+          "note": "Brief received.",
+          "actor": "client"
+        },
+        {
+          "status": "quotation_prepared",
+          "timestamp": "2026-09-19T11:00:00Z",
+          "note": "Quotation prepared.",
+          "actor": "designer"
+        },
+        {
+          "status": "awaiting_payment",
+          "timestamp": "2026-09-19T16:00:00Z",
+          "note": "Client approved quotation.",
+          "actor": "client"
+        },
+        {
+          "status": "payment_confirmed",
+          "timestamp": "2026-09-20T14:10:00Z",
+          "note": "PayPal Sandbox verified capture completed.",
+          "actor": "system"
+        },
+        {
+          "status": "in_progress",
+          "timestamp": "2026-09-21T09:00:00Z",
+          "note": "Drafting crystal cartography.",
+          "actor": "designer"
+        },
+        {
+          "status": "delivered",
+          "timestamp": "2026-10-05T14:00:00Z",
+          "note": "Final digital couture dossier and 1:1 beading map delivered to client.",
+          "actor": "designer"
+        }
+      ]
+    }
+  ]
+}

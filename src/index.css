@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-noir-950: #070709;
+  --color-noir-900: #0A0A0C;
+  --color-noir-850: #101014;
+  --color-noir-800: #16161C;
+  --color-noir-700: #22222B;
+  --color-noir-600: #33333F;
+
+  --color-gold-300: #F3E5AB;
+  --color-gold-400: #E5C378;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #C5A059;
+  --color-gold-700: #997834;
+
+  --color-ivory-50: #FFFFFF;
+  --color-ivory-100: #FBF9F5;
+  --color-ivory-200: #F5F0E6;
+  --color-ivory-300: #E8E2D5;
+  --color-ivory-400: #C5BDAE;
+
+  --color-rose-300: #E2B6B6;
+  --color-rose-400: #C88A8A;
+  --color-rose-500: #B57281;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #22222B;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
+
+/* Print styling for couture receipts */
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-receipt {
+    box-shadow: none !important;
+    border: 1px solid #CCCCCC !important;
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+}

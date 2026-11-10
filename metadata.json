@@ -1,0 +1,6 @@
+{
+  "name": "CouturePay AI",
+  "description": "AI-powered business platform for freelance fashion designers and couture sketch artists. Converts client fashion briefs into professional quotations, manages projects, and accepts PayPal Sandbox payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
